@@ -1,0 +1,186 @@
+*** 1. Homonyms, Synonyms, and Derivatives
+- *Puzzle:* How are things named (together)?
+- *Definition.*
+  Things are said to be named {{{dfn(equivocally)}}} when, though they
+  have a common name, the definition corresponding with the name differs
+  for each.
+  
+  The same word is being used but they have different meanings.
+  
+- Examples:
+  In English, "seal" means the stamp on a piece of paper. It could also
+  refer to a sea animal. There's also the act of "sealing" or "closing"
+  something. All these things have the same word, to mean different
+  things.
+
+  Aristotle gives a real man, and a (stick) figure in a
+  picture. Although we can call the stick figure a human, only the
+  living breathing human being is an animal.
+- *Definition.*
+  On the other hand, things are said to be named {{{dfn(univocally)}}}
+  which have both the name and the definition answering to the name in
+  common.
+  
+  We have a single word, and they signify the "same" thing (but not
+  "identical" things).
+- Examples:
+  In a library, there are many /books/. But the books are not
+  identical. So the definition of /book/ is univocal, even though they
+  are not identical.
+  
+  You are a human being, and I am a human being, but we are both
+  different (not identical) people.
+  
+  Aristotle's example: a man and an ox are both "animals", but they are
+  not identical animals. A man is not an ox. If we were to state
+  explicitly in what sense a man is an animal, we would find common
+  criteria for the ox, but there are unique qualities to the human
+  (e.g., the ability to conquer the world) the ox lacks.
+- *Definition.*
+  Things are said to be named {{{dfn(derivatively)}}}, which derive
+  their name from some other name, but differ from it in termination.
+  
+  (This makes more sense in Greek than in English.)
+- Examples:
+  Aristotle's examples are the grammarian derives his name from
+  "grammar", and the courageous man from the word "courage".
+  
+  The librarian derives from "library".
+  
+  Thus the grammarian derives his name from the word 'grammar', and the
+  courageous man from the word 'courage'.
+  
+  "Healthy" is used loosely in this sense. Is it healthy to have a job?
+  Yes, but "healthy" here is used in the sense of "good", not "bodily
+  health".
+- *Observation.*
+  Aristotle is not introducing these terms to describe words, but
+  things.
+*** 2. Simple and Composite Expressions
+- Caution: this section requires careful study, review Sadler's [[https://youtu.be/uovL2aX43Zk?t=19m57s][lectures]]
+- Aristotle introduces four distinct phrases here, very
+  implicitly. His concern is largely /ontological/, I think
+  distinguishing between "components" of a thing from "properties" of a
+  thing. (A person's kidney is "different" than a person's wisdom.)
+  There is also an ambient notion of "subject" we should first clarify
+  before continuing.
+- *Definition.* A {{{dfn(subject)}}} (Gk: ὑποκείμενον, /hypokeimenon/)
+  is an individual "substance" or "thing".
+  
+  Truthfully, Aristotle /does not/ define this term, but uses it in this
+  manner.
+- *Definition.* To be {{{dfn(predicable of a subject)}}} (or simply
+  {{{dfn(predicable)}}}) means it can
+  be said in such a way that it is conveying some intelligible
+  information about what that subject is, or the manner in which it
+  is. (What can be communicated forms the bulk of the /Categories/.) JJ
+  Ackrill translates {{{term(predicable of a subject)}}} as "said of a
+  subject".
+  - To paraphrase Sadler's lecture, {{{term(predicable of)}}} appears to
+    mean what is said of a subject reflecting "what" the subject /is/, or
+    more precisely, what categories the subject /belongs to/. I suppose it
+    would be anachronistic (but tempting) to identify this as analogous
+    to set membership (the "∈" operator) --- i.e., "/Y/ is predicable of
+    /x/" is *analogous* to "/x/ ∈ /Y/".
+  - More precisely, if "/Y/ is {{{term(predicable)}}} of /x/", then "/x/
+    is /Y/" is a proposition.
+  - This appears to be a binary relation, "/x/ is {{{term(predicable)}}}
+    of /y/". Is it transitive? (If /x/ is {{{term(predicable)}}} of /y/,
+    and /y/ {{{term(predicable)}}} of /z/, is /x/ {{{term(predicable)}}}
+    of /z/?)
+    
+    Aristotle argues in the next chapter (1b10--16) that "man is
+    predicated of the individual man, and animal of man; so animal will
+    be predicated of the individual man also---for the individual man is
+    both a man and an animal."
+- *Definition.*
+  The notion of being {{{dfn(present in a subject)}}} (or just
+  {{{dfn(present in)}}}, Aristotle
+  clarifies he does not mean "present as parts are present in a
+  whole". Instead Aristotle means "being incapable of existence apart
+  from the said subject".
+  - This is either circular or vague. Ackrill's translation states the
+    definition as "By ‘in a subject’ I mean what is in something, not as
+    a part, and cannot exist separately from what it is in". We need to
+    define 'in' (as in "what it is in"), which Aristotle does not, or it
+    uses the definition we're trying to define...i.e., it's
+    circular. Either way, it's bad news.
+    
+    (NB: the cited translation adopts a convention most scholars have
+    agreed upon, which is unfortunately not explicitly stated in a
+    footnote, or warning, or any other mechanism in the text.)
+  - Is this a binary relation? What properties does it have? It's
+    clearly not symmetric (green is {{{term(present in)}}} grass, but
+    grass is not {{{term(present in)}}} green). Is it transitive?
+    Reflexive? 
+  - Consider knowledge. Where does it exist? We could say "Well, it
+    exists in books" or "It exists in my mind". Both are
+    correct. Without any books, or minds, or (ostensibly) websites,
+    there could be no knowledge. Knowledge /must/ be 
+    {{{term(present in a subject)}}}.
+  
+    A similar argument goes for color. The color "green" exists in the
+    grass, i.e., is {{{term(present in a subject)}}}.
+  - The [[https://books.google.com/books?id=UXP5AQAAQBAJ&lpg=PA839&ots=yL15MYzPnM&dq=aristotle%20categories%20%221a20-21%22&pg=PA839#v=onepage&q=aristotle%20categories%20%221a20-21%22&f=false][Dictionary of Untranslatables: A Philosophical Lexicon]]
+    claims the first place this term is used appears to be the phrase
+    "Of things themselves some are predicable of a subject, and are
+    never present in a subject" [τῶν ὄντων τὰ μὲν καθ' ὑποκειμένου
+    τινὸς λέγεται, ἐν ὑποκειμένῳ δὲ οὐδενί ἐστιν]. (/Categories/,
+    1a20-21). It should be noted "ἐν ὑποκειμένῳ" is the Greek phrase
+    translated to {{{term(present in [ἐν] a subject [ὑποκειμένῳ])}}},
+    which really has the connotation "in something that underlies"
+    (c.f., [[http://discovery.ucl.ac.uk/14058/1/14058.pdf][/Habent sua fata libelli/: Aristotle's Categories in the
+    first century BC]], bottom of pg 10, plus fn 55). In the same paper,
+    the author points out the phrase /καθ’ ὑποκειμένου/ which is
+    translated to {{{term(predicable of a subject)}}} has the
+    connotation "apply to [καθ’] something that underlies [ὑποκειμένου]".
+  - *Question:*
+    Is this {{{term(present in)}}} relation the same as the "parthood"
+    relation in formal [[https://en.wikipedia.org/wiki/Mereology][Mereology]]? (See also the [[http://plato.stanford.edu/entries/mereology/][Stanford Online Encylopedia entry]].)
+    
+    The answer appears to be, at least etymologically, /no/. The
+    "inseperability" condition /prevents/ this from being mere
+    mereology. We should think of this as, if we look at a brown horse,
+    we say "Brown is {{{term(present in)}}} that particular horse".
+  - We can clarify the criteria /A/ {{{term(present in)}}} /B/ iff
+    1. /A/ is in /B/, or /A/ is of /B/, or /A/ belongs to /B/, or /B/
+       has /A/, or ...
+    2. /A/ is not a part of /B/ in a mereological sense
+    3. /A/ is inseperable from /B/
+- One "class" of "things" are {{{term(predicable of a subject)}}} but
+  are never {{{term(present in a subject)}}}.
+  - Examples:
+    If we are calling someone "knowledgeable", we are predicating
+    "knowledge" /in/ that person.
+    
+    More general template: /X/ is {{{term(predicable of)}}} a subject if
+    we can say "That subject is /X/". For example, fixing the subject to
+    be Socrates, "Socrates is /X/" where /X/ could be: human, animal,
+    white.
+  - These are going to be called {{{term(universal substances)}}} later on.
+- A second class of "things" are never {{{term(predicable of a subject)}}}
+  but are {{{term(present in a subject)}}}.
+  - Example:
+    Someone may be knowledgeable, but /knowledge/ itself is never 
+    {{{term(predicable of a subject)}}}. Instances of knowledge on
+    particular topics are "in" a person's brain, but /all/ of knowledge
+    is not. So /knowledge of English grammar/ is in this second class.
+
+  - Example:
+    this shade of green my particular lawn has on this fine morning.
+
+  - These are going to be called {{{term(individual non-substances)}}}
+- A third class of "things" are both {{{term(predicable of a subject)}}}
+  and {{{term(present in a subject)}}}.
+  - Examples: knowledge, white.
+  - These are called {{{term(universal non-substances)}}}
+- The last class are neither {{{term(predicable of a subject)}}}
+  nor {{{term(present in a subject)}}}.
+  - Example: this man, that horse, my copy of Aristotle's /Organon/.
+  - These are {{{term(individual substances)}}}
+- *Puzzle.* We have two binary relations, {{{term(predicable of)}}} and
+  {{{term(present in)}}}. What is the underlying sets or types on which
+  these relations are defined? (Obviously, subjects, but is "Man is
+  {{{term(present in)}}} green" meaningful? We should think not, but
+  /why/?)
+  
