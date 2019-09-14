@@ -1,0 +1,140 @@
+*** 5. Substance
+**** (1) Primary and Secondary Substance
+- Aristotle distinguishes between {{{term(Primary Substance)}}} which is
+  the individual thing in question (e.g., Socrates, or any other
+  individual man, etc.) and a {{{term(Secondary Substance)}}}.
+- *Definition.*
+  The criteria given is that a {{{dfn(primary substance)}}} is *neither*
+  {{{term(predicable of)}}}
+  *nor* {{{term(present in)}}} anything.
+  
+  It is tempting but anachronistic
+  to think of this as the thing-in-itself, to borrow a Kantian phrase.
+- *Definition.* The {{{dfn(secondary substance)}}}
+  is {{{term(predicable of)}}} but
+  not {{{term(present in)}}}...i.e.,
+  {{{term(secondary substance)}}} is the species and genera of
+  {{{term(substances)}}} in general.
+  - Note Aristotle defines a {{{term(secondary substance)}}} as either
+    the species of a (primary) {{{term(substance)}}}, or the genera
+    of a species. It's not until later he notes a substances is never
+    {{{term(present-in)}}} a subject (3a7), and largely implies is
+    {{{term(predicable of)}}} of a subject. Since this is the more useful
+    criteria, I adopt it as the definition of a secondary substance.
+**** (2) Difference in the relation subsisting between essential and accidental attributes and their subject
+- Aristotle argues that, given a subject, both a name and its definition
+  are {{{term(predicable)}}} of the subject.
+  - For this to make sense, we should note ancient Greek doesn't have
+    indefinite articles. So "Socrates is human" would be a literal
+    translation of "Socrates is a human", and "human is animal" would be
+    "A human is an animal" in modern English. This presumably explains
+    what Aristotle intended with "A name is predicable of a subject".
+- For things {{{term(present in)}}} a subject, seldom will their name or
+  their definition be {{{term(predicable)}}} of the subject. For
+  example, "Callias is generous" but generosity is not Callias.
+**** (3) All which is not primary substance is either an essential or accidental attribute of primary substance
+- The fundamental point Aristotle is driving at appears to be: without
+  "things" ({{{term(primary substances)}}}), there could be no
+  "universals" ({{{term(secondary substances)}}}).
+- "If primary substances did not exist, it would be impossible for any
+  of the other things to exist."
+  
+  Which I read as stating, the secondary substances &
+  non-substance categories only exist because primary
+  substances manifest (generate?) them.
+- It follows Aristotle's claim "All other things are either said of the
+  primary substances as subjects or in them as subjects"
+  - I read this as stating: 
+    {{{logic(for all)}}} {{{var(x)}}}, ({{{logic(not)}}} {{{logic(isPrimarySubstance)}}}({{{var(x)}}}))
+    {{{logic(implies)}}} [{{{logic(exists)}}} {{{var(y)}}}, {{{logic(isPrimarySubstance)}}}({{{var(y)}}}) {{{logic(and)}}} ({{{var(x)}}} {{{term(said-of)}}} {{{var(y)}}}, {{{logic(or)}}} {{{var(x)}}} {{{term(present-in)}}} {{{var(y)}}})]
+    where {{{logic(isPrimarySubstance(-))}}} is the predicate testing
+    if a term is a primary substance or not, and
+    {{{term(present-in)}}} and {{{term(said-of)}}} are the binary
+    relations we introduced in chapter 2. Or, if you like the 
+    more traditional formalization presentation:
+    
+    ∀{{{var(x)}}} ([!P({{{var(x)}}})] ⇒ ∃{{{var(y)}}} [P({{{var(y)}}}) & (said({{{var(x)}}}, {{{var(y)}}}) {{{logic(or)}}} in({{{var(x)}}}, {{{var(y)}}}))])
+
+  - Observe this is the contrapositive of the definition of a primary substance.
+- Aristotle gives an additional justification for this claim,
+  "the primary substances are subjects for all the other
+  things—" aha! "—and all the other things are predicated
+  of them or are in them, [because of this] that they are
+  called substances most of all." (2b15)
+**** (5) All species (which aren't genera) are substance in the same degree
+#+BEGIN_QUOTE
+...it is no more apt to say of the individual man that he is
+a man than to say of the individual horse that it is a horse. And similarly of the
+primary substances one is no more a substance than another... (2b23-2b28)
+#+END_QUOTE
+**** (6) Nothing except species and genera is secondary substance
+- Aristotle asserts: "After primary substances, their species and genera 
+  should be the only other things called secondary substances. For only they,
+  of things predicated, reveal the primary substances." (2b29)
+**** (7) Relation of primary substance to secondary substance to all other predicates is same as that of secondary substance to all other predicates
+#+BEGIN_QUOTE
+Further, it is because the primary substances are subjects for everything else that
+they are called substances most strictly. But as the primary substances stand to
+everything else, so the species and genera of the primary substances stand to all
+the rest: all the rest are predicated of these. For if you will call the individual
+man grammatical, then you will call both a man and an animal grammatical; and
+similarly in other cases. (3a1)
+#+END_QUOTE
+**** (8) Substance is never accidental attribute
+- Phrased differently, "No substance is in a subject".
+  - Cheater's proof: By cases.
+    - Case 1: This is true by definition of a primary substance.
+    - Case 2: For secondary substances, "This is obvious". QED.
+  - Formally, the claim is: 
+    ∀{{{var(x)}}} [isSubstance({{{var(x)}}}) ⇒ ¬(∃{{{var(y)}}}, {{{logic(in)}}}({{{var(x)}}}, {{{var(y)}}}))]
+  - The honest proof (i.e., the one that works) is by contrapositive.
+**** (9) Differentiae of species aren't accidental attributes
+- Aristotle: "This is not, however, peculiar to substance, since the
+  differentia also is not in a subject." (3a22-29)
+
+**** (10) Species, genus, differentiae (as predicates) are univocal with their subject
+- "It is a characteristic of substances and differentiae that all things 
+  called from them are so called synonymously." (3a34-3b9)
+- As predicates, species, genera, and differentiae are {{{term(univocal)}}} with their subject.
+**** (11) Primary substance is individual, secondary substance is the qualification of that which is individual (3b10-23)
+- Aristotle: "Every substance seems to signify a certain 'this'." (3b10)
+  - Aristotle seemsto argue that "this" refers to a primary substance's species, and if this is the case...then
+    what would this be for a secondary substance?
+- Case: Primary substances.
+  - Proof: obvious. "For the thing revealed is individual and numerically one."
+  - Examples: "This man, Socrates, is wise"; "That horse, Cannonball, is fast"; etc.
+- Case: secondary substances.
+  - Proof: not true!
+  - A secondary substance "signifies a certain qualification". Why?
+  - The "subject is not, as the primary substance is, one, but man
+    and animal are said of many things."
+  - Indeed, the species and genus "mark off the qualification of substance".
+**** (12) No substance has a contrary (3b24-31)
+- This appears to be an axiom, in the sense of a specification for a thing
+  to be considered a substance.
+**** (13) No substance can be what is in varying degrees (3b32-4a9)
+- As with "No substance has a contrary", this also appears to be an axiom
+  for substances.
+**** (14) The particular mark of substance is that contrary qualities can be predicated of it
+- Aristotle: "It seems most distinctive of substance that what is
+  numerically one and the same is able to receive contraries." (4a10)
+- Socrates is pale at one moment, then flush at another.
+**** (15) Contrary qualities cannot be predicated of anything other than substances, not even of propositions and judgments
+- Aristotle: "Nothing like this is to be seen in any other case, unless
+  perhaps someone might object and say that statements and beliefs are like
+  this." (4a21)
+*** 6. Quantity
+- Quantity, Aristotle uses the word ποσόν (/poson/, derived from [[https://en.wiktionary.org/wiki/%CF%80%CF%8C%CF%83%CE%BF%CF%82#Ancient_Greek][πόσος]] for "how much").
+- Quantities are sometimes discrete, other times continuous; sometimes "composed of parts which have position in relation to one another", other times no.
+- Aristotle seems (4b24) to limit quantity to the following:
+  
+  discrete quantities = { language, number }
+  
+  continuous quantities = { lines, surfaces, bodies, time, (spatial position?) place }
+- From Aristotle's discussion of this division, he seems to define a continuous quantity as "the parts join together at a common boundary."
+  It is discussed further in /Physics/ (see V.3 and VI.1-2).
+- 
+*** 7. Relation
+*** 8. Quality
+*** 9. Action
+

@@ -184,3 +184,80 @@
   {{{term(present in)}}} green" meaningful? We should think not, but
   /why/?)
   
+*** 3. Concerning Predicates
+- Aristotle argues that {{{term(predicable)}}} is a transitive relation.
+- *Definition.* A {{{term(species)}}} (Gk: εἶδος, /eidos/) is a set or a class
+  of "things".
+  - /Remark/. The word /eidos/ coincidentally is Plato's term for "Form".
+  - /Caution:/ *do not* confuse this term with the modern use of the
+    term "species", which appears in biology and (oddly enough)
+    mathematics. They are completely unrelated to Aristotle's
+    {{{term(species)}}}.
+- *Puzzle.* How do we /specify/ a species?
+- Aristotle provides a framework for "intensional definitions" of the
+  form "A [species] is a [genus] such that [differentiae]". Species then
+  have a hierarchical structure, like a tree. That is, we should think
+  of {{{term(genus)}}} as an underlying species which we refine using
+  predicates or {{{term(differentiae)}}}. The
+  {{{term(differentiae)}}} is not {{{term(present in)}}} a subject,
+  Aristotle tells us in chapter 5 (3a21).
+- *Caution/Danger:* I may be blurring lines here, supposing that a 
+  {{{term(genus)}}}
+  /is/ a {{{term(species)}}}.
+  It may be the case that I am in error here, but no one
+  appears to discuss this anywhere. If we were programming this up in,
+  say, haskell, I would probably attempt something like the following:
+  
+  #+BEGIN_SRC haskell
+  species :: * --- species is a type
+  predicate :: thing -> boolean
+
+  definition :: species -> [predicates] -> species
+  definition genus differentiae = ... 
+  #+END_SRC
+- If we have two {{{term(species)}}}, say animal and human, then what is
+  predicable of animal is also predicable of human /because/ of this
+  tree-like structure relating them.
+
+
+*** 4. The Eight Categories of the Objects of Thought
+- Aristotle asserts "of things said without any combination", i.e.,
+  subjects, each "signifies" one of ten categories:
+  1. Substance (e.g., man, horse)
+  2. Quantity (e.g., four-foot, five-foot)
+  3. Qualification (e.g., white, grammatical)
+  4. Relative (e.g., double, half, larger)
+  5. Where or place (e.g., in the school, in the market)
+  6. When or time (e.g., yesterday, last year)
+  7. Being-in-position (e.g., is-lying, is-sitting)
+  8. Having or state (e.g., has-shoes-on, has-armor-on)
+  9. Doing or action (e.g., cutting, burning)
+  10. Being-affected (e.g., being-cut, being-burned)
+- What's the deal? Why are there 10 categories when there are 8
+  categories of the object of thought? Well, it turns out that
+  being-in-position and state are not objects of thought. (See
+  Aristotle's /Metaphysics/ 5.7.1017a7-b9)
+- We can form "affirmations" by combining two "things said" together,
+  e.g. "man" and "white" produces the affirmation "man is white".
+  So this sketches out how to assemble a proposition, which Aristotle
+  will approach in /On Interpretations/: we build it out of "things
+  said", which we can better understand using categories. But first,
+  lets digress on a few remarks about the translation.
+**** Remarks on Translation
+- These notes are taken from Ackrill's notes on his translation. I
+  myself can neither read nor speak Greek (but I can write the
+  alphabet!)...so I cannot independently verify Ackrill's comments,
+  aside from using Google translate and Wiktionary to see what happens.
+- *Substance.*
+  The Greek word is the /noiun/ from the verb "to be". So "being" or
+  "entity" would be a literal equivalent. But "substance" has been
+  grandfathered into this particular Aristotlian category.
+- *Quantity.*
+  The Greek word serves as both an interrogative and as an indefinite
+  adjective (Latin, /quantum/). Only twice does Aristotle use the
+  abstract noun for quantity, neither times occurs in the /Categories/.
+  Instead, this translates to the interrogative adjective.
+- *Qualification.*
+  As an abstract noun, 'quality' is used in chapter 8 and distinguishes
+  between qualities and things qualified. But as an
+  interrogative adjective, 'qualification' or 'qualified' is used.
