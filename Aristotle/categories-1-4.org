@@ -261,3 +261,6 @@
   As an abstract noun, 'quality' is used in chapter 8 and distinguishes
   between qualities and things qualified. But as an
   interrogative adjective, 'qualification' or 'qualified' is used.
+- *Relatives.*
+  The Greek for this is /ta pros ti/ (τὰ πρός τι) which literally means
+  "things toward something" (c.f., discussin in [[https://plato.stanford.edu/entries/aristotle-categories/#Relatives][Stanford Encyclopedia]]).  
